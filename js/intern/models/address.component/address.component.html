@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="/js/intern/models/address.component/address.component.css">
+<div class="container">
+    <h2>Adresse</h2>
+        <div>
+            <label for="post-code">PLZ</label>
+            <input id="post-code-field" name="post-code" type="text" placeholder="" autocomplete="off">
+            <datalist id="post-codes" >
+                
+            </datalist>
+
+            <label for="city">Stadt</label>
+            <input id="city-field" name="city" type="text" placeholder="" autocomplete="off">
+            <datalist id="cities" >
+                
+            </datalist>
+        </div>
+       
+        <div>
+            <label for="street">Straße</label>
+            <input  id="street-field" name="street" placeholder="" autocomplete="off">
+            <datalist id="streets" >
+                <!-- <select id="">
+                    <optgroup label="x">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </optgroup>
+                    <optgroup label="y">
+                        <option value="4">1</option>
+                        <option value="4">2</option>
+                    </optgroup>
+                </select> -->
+            </datalist>
+
+            <label for="house">Hausnummer</label>
+            <input name="house" type="text" placeholder="" autocomplete="off">
+        </div>
+
+        <div>
+            <label for="country">Land</label>
+            <input name="country" type="text" disabled value="Deutschland" autocomplete="off">
+        </div>
+        <button type="submit">Info</button>
+</div>
